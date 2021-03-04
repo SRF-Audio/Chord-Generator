@@ -1,0 +1,22 @@
+{
+  "name": "chord-generator",
+  "version": "1.0.0",
+  "description": "Chord Generator is a page for songwriters and composers to quickly generate and listen to interesting chord ideas.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@tonaljs/tonal": "4.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "chords",
+    "music theory",
+    "synth"
+  ]
+}
